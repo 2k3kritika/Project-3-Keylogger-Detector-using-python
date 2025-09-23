@@ -25,19 +25,19 @@ Setup:(one time)
 Steps to run the whole detector:
 1. take a telemetry snapshot
 `python collector.py`
-# print a table and saves telemetry_snapshot.csv
+print a table and saves telemetry_snapshot.csv
 2. build data set
 `python synth_data.py`
-# creates dataset.csv (benign rows + synthetic suspicious rows)
+creates dataset.csv (benign rows + synthetic suspicious rows)
 3. train the model
 `python train_model.py`
-# prints classification report and saves model.pkl
+prints classification report and saves model.pkl
 4. run the live detector
 `python detector_live.py`
-# prints suspicious processes (score >= threshold) and saves live_snapshot_score.csv
+prints suspicious processes (score >= threshold) and saves live_snapshot_score.csv
 5. start streamlit UI
 `streamlit run ui_streamlit.py`
-# open http://localhost.8501
+open http://localhost.8501
 6. DEMO: simulating suspicious behaviour in vm; in another terminal
 `python C:\Users\FSPIT\Documents\project_3_keylogger_detector\demo_scripts\simulate_suspicious.py`
 
