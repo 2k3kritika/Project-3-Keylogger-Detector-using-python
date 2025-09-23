@@ -1,0 +1,6 @@
+psutil
+pandas
+scikit-learn
+joblib
+streamlit    # optional if you don't want a GUI
+
