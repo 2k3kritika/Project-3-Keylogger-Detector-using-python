@@ -72,7 +72,7 @@ Kill process if needed:
 
 3. Check your simulated network connections
 If your simulate_suspicious.py opened fake network sockets, you can verify they’re closed:
-# PowerShell
+PowerShell
 `netstat -ano | findstr 5000`
 
 5000 is the port used in the simulation script.
@@ -81,7 +81,7 @@ No output → no leftover sockets.
 4. Check startup entries
 Make sure the dummy startup file isn’t still there:
 
-# Windows
+Windows
 `Test-Path "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\dummy-demo.bat"`
 Returns False → nothing running at startup.
 
