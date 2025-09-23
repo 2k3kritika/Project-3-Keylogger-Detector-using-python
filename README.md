@@ -21,7 +21,7 @@ Setup:(one time)
 `Remove-Item -Recurse -Force .\venv`    #to delete this current vm in powershell
 `rmdir /s /q venv`  #to delete the vm using cmd
 
-
+---------------------Running the detector-----------------------
 Steps to run the whole detector:
 1. take a telemetry snapshot
 `python collector.py`
@@ -57,7 +57,6 @@ If you see a leftover one, right-click → End Task.
 PowerShell
 `Get-Process python*`
 
-
 Lists all running Python processes.
 If nothing shows, your simulation isn’t running.
 
@@ -88,7 +87,6 @@ Returns False → nothing running at startup.
 
 Delete if needed:
 `Remove-Item "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\dummy-demo.bat"`
-
 
 ✅ Quick Checklist
 Task Manager → no Python processes.
