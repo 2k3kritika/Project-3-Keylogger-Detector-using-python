@@ -94,3 +94,5 @@ Startup folder → dummy file deleted.
 Network ports → no leftover demo connections.
 Temp files → optionally delete after demo.
 If all four are clear, your simulated keylogger activity is completely stopped.
+
+---------------this is all about this project---------------------------
