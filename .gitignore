@@ -73,3 +73,5 @@ demo_scripts/*.desktop
 # Dataset / model artifacts (optional, if you don't want to push)
 data/
 models/
+*.csv
+*.pkl
