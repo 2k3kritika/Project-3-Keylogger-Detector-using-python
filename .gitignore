@@ -76,7 +76,7 @@ models/
 *.csv
 *.pkl
 
-echo "dataset.csv" >> .gitignore
-echo "live_snapshot_scored.csv" >> .gitignore
-echo "model.pkl" >> .gitignore
-echo "telemetry_snapshot.csv" >> .gitignore
+dataset.csv
+live_snapshot_scored.csv
+model.pkl
+telemetry_snapshot.csv
