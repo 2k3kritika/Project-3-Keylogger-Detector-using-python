@@ -1,0 +1,199 @@
+pid,name,exe,username,open_files,connections,path_in_temp,path_in_user,age_seconds,cmdline_len,suspicious_cmd_kw,in_startup,timestamp,score
+0,System Idle Process,,NT AUTHORITY\SYSTEM,0,1,0,0,-1.0,0,0,0,2025-09-25T13:40:31.986503,0.006666666666666667
+4,System,,NT AUTHORITY\SYSTEM,0,5,0,0,-1.0,0,0,0,2025-09-25T13:40:31.992987,0.10666666666666667
+124,Registry,Registry,,-1,0,0,0,201529.48680996895,0,0,0,2025-09-25T13:40:32.003962,0.0
+460,smss.exe,C:\Windows\System32\smss.exe,,-1,0,0,0,201527.50166845322,0,0,0,2025-09-25T13:40:32.014178,0.0
+592,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,,-1,0,0,0,201522.41598916054,0,0,0,2025-09-25T13:40:32.024396,0.0
+644,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.46998405457,0,0,0,2025-09-25T13:40:32.036432,0.0
+672,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,1731.245043039322,0,0,0,2025-09-25T13:40:32.048677,0.02666666666666667
+704,pet.exe,C:\Users\FSPIT\.vscode\extensions\ms-python.python-2025.14.0-win32-x64\python-env-tools\bin\pet.exe,DESKTOP-Q0KEARK\FSPIT,3,0,0,1,3872.1358880996704,106,0,0,2025-09-25T13:40:32.117353,0.02666666666666667
+712,csrss.exe,C:\Windows\System32\csrss.exe,,-1,0,0,0,201524.2910065651,0,0,0,2025-09-25T13:40:32.127951,0.0
+792,wininit.exe,C:\Windows\System32\wininit.exe,,-1,2,0,0,201523.81478405,0,0,0,2025-09-25T13:40:32.138460,0.0
+824,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,0,0,0,0,8354.137691736221,858,0,0,2025-09-25T13:40:32.248715,0.0
+864,MicTray64.exe,C:\Windows\System32\MicTray64.exe,DESKTOP-Q0KEARK\FSPIT,-1,0,0,0,8363.266201019287,33,0,0,2025-09-25T13:40:32.249878,0.0
+940,services.exe,C:\Windows\System32\services.exe,,-1,2,0,0,201523.6678841114,0,0,0,2025-09-25T13:40:32.260812,0.0
+960,lsass.exe,C:\Windows\System32\lsass.exe,,-1,2,0,0,201523.59133076668,0,0,0,2025-09-25T13:40:32.271330,0.0
+984,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,,-1,0,0,0,201522.57269191742,0,0,0,2025-09-25T13:40:32.281526,0.0
+1040,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,261.8480625152588,100,0,0,2025-09-25T13:40:32.376313,0.006666666666666667
+1092,python.exe,C:\Users\FSPIT\Documents\project_3_keylogger_detector\myvenv\Scripts\python.exe,DESKTOP-Q0KEARK\FSPIT,0,0,0,1,23.735284328460693,147,1,0,2025-09-25T13:40:32.437133,0.0
+1120,svchost.exe,C:\Windows\System32\svchost.exe,,-1,2,0,0,201522.41281795502,0,0,0,2025-09-25T13:40:32.447603,0.0
+1164,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.30325841904,0,0,0,2025-09-25T13:40:32.458146,0.0
+1280,WUDFHost.exe,C:\Windows\System32\WUDFHost.exe,,-1,0,0,0,201521.8821091652,0,0,0,2025-09-25T13:40:32.468202,0.0
+1352,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-Q0KEARK\FSPIT,8,0,0,0,8363.784986019135,52,0,0,2025-09-25T13:40:32.644521,0.0
+1396,python.exe,C:\Users\FSPIT\AppData\Local\Programs\Python\Python313\python.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,1,3.9747989177703857,99,1,0,2025-09-25T13:40:32.726833,0.006666666666666667
+1456,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.00873279572,0,0,0,2025-09-25T13:40:32.737505,0.0
+1464,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.01954054832,0,0,0,2025-09-25T13:40:32.748395,0.0
+1472,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.03028035164,0,0,0,2025-09-25T13:40:32.759225,0.0
+1540,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.02644395828,0,0,0,2025-09-25T13:40:32.770420,0.0
+1548,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.036962986,0,0,0,2025-09-25T13:40:32.781195,0.0
+1608,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,,-1,0,0,0,409.44803404808044,0,0,0,2025-09-25T13:40:32.791301,0.013333333333333334
+1612,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,-1,0,0,0,8355.89199256897,814,0,0,2025-09-25T13:40:33.407703,0.0
+1668,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.47073626518,0,0,0,2025-09-25T13:40:33.419414,0.0
+1716,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.44159770012,0,0,0,2025-09-25T13:40:33.429778,0.0
+1724,IntelCpHDCPSvc.exe,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_51f685305808e3a5\IntelCpHDCPSvc.exe,,-1,0,0,0,201522.44439435005,0,0,0,2025-09-25T13:40:33.440179,0.0
+1732,explorer.exe,C:\Windows\explorer.exe,DESKTOP-Q0KEARK\FSPIT,57,0,0,0,8365.215064764023,23,0,0,2025-09-25T13:40:35.217517,0.08666666666666667
+1788,Widgets.exe,C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_525.24401.50.0_x64__cw5n1h2txyewy\Dashboard\Widgets.exe,DESKTOP-Q0KEARK\FSPIT,17,0,0,0,8361.347159862518,168,0,0,2025-09-25T13:40:35.646778,0.0
+1832,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201523.99845004082,0,0,0,2025-09-25T13:40:35.657779,0.0
+1860,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201524.5180234909,0,0,0,2025-09-25T13:40:35.669406,0.0
+1904,svchost.exe,C:\Windows\System32\svchost.exe,,-1,2,0,0,201524.42723035812,0,0,0,2025-09-25T13:40:35.680744,0.0
+1920,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,27.04671311378479,39,0,0,2025-09-25T13:40:35.782597,0.02666666666666667
+1928,OneDrive.Sync.Service.exe,C:\Program Files\Microsoft OneDrive\25.164.0824.0003\OneDrive.Sync.Service.exe,DESKTOP-Q0KEARK\FSPIT,13,1,0,0,8056.569336652756,13,0,0,2025-09-25T13:40:36.061976,0.02666666666666667
+1960,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201524.75155234337,0,0,0,2025-09-25T13:40:36.073443,0.0
+2000,IntelCpHeciSvc.exe,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_51f685305808e3a5\IntelCpHeciSvc.exe,,-1,0,0,0,201524.71724271774,0,0,0,2025-09-25T13:40:36.084627,0.0
+2020,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201524.67667460442,0,0,0,2025-09-25T13:40:36.095533,0.0
+2192,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201524.1549870968,0,0,0,2025-09-25T13:40:36.105805,0.0
+2220,GoogleInputService.exe,C:\Program Files (x86)\Google\Google Input Tools\GoogleInputService.exe,,-1,0,0,0,201519.24236869812,0,0,0,2025-09-25T13:40:36.116018,0.0
+2240,svchost.exe,C:\Windows\System32\svchost.exe,,-1,2,0,0,201524.10350632668,0,0,0,2025-09-25T13:40:36.126108,0.0
+2280,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201524.0817773342,0,0,0,2025-09-25T13:40:36.136336,0.0
+2284,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201524.09185290337,0,0,0,2025-09-25T13:40:36.146414,0.0
+2296,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201524.10194039345,0,0,0,2025-09-25T13:40:36.156737,0.0
+2420,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201523.82958054543,0,0,0,2025-09-25T13:40:36.166772,0.0
+2448,HotKeyServiceUWP.exe,C:\Windows\System32\DriverStore\FileRepository\hpqkbsoftwarecompnent.inf_amd64_ba096fb4f67b0f61\HotKeyServiceUWP.exe,,-1,0,0,0,201522.31002902985,0,0,0,2025-09-25T13:40:36.176966,0.0
+2452,MemCompression,MemCompression,,-1,0,0,0,201523.7826206684,0,0,0,2025-09-25T13:40:36.187806,0.0
+2520,igfxCUIService.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_38cfab2b652e4701\igfxCUIService.exe,,-1,0,0,0,201523.7176823616,0,0,0,2025-09-25T13:40:36.198575,0.0
+2620,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201523.52499079704,0,0,0,2025-09-25T13:40:36.208978,0.0
+2628,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201523.53630304337,0,0,0,2025-09-25T13:40:36.220710,0.0
+2636,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201523.55036783218,0,0,0,2025-09-25T13:40:36.234977,0.0
+2684,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,148.3682415485382,0,0,0,2025-09-25T13:40:36.246557,0.006666666666666667
+2700,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201523.54792046547,0,0,0,2025-09-25T13:40:36.257193,0.0
+2720,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,19,0,0,0,8356.1418364048,5407,1,0,2025-09-25T13:40:36.454472,0.0
+2788,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201523.33989810944,0,0,0,2025-09-25T13:40:36.464974,0.0
+2820,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,8247.8911216259,51,0,0,2025-09-25T13:40:36.603268,0.0
+2832,SecurityHealthSystray.exe,C:\Windows\System32\SecurityHealthSystray.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,8335.584826469421,45,0,0,2025-09-25T13:40:36.701716,0.0
+2872,ChatGPT.exe,C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2025.258.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,8328.977896213531,1020,1,0,2025-09-25T13:40:36.826048,0.0
+2920,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201384.51471042633,0,0,0,2025-09-25T13:40:36.837545,0.0
+2936,svchost.exe,C:\Windows\System32\svchost.exe,,-1,4,0,0,201523.46824860573,0,0,0,2025-09-25T13:40:36.848079,0.006666666666666667
+3100,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201447.0265443325,0,0,0,2025-09-25T13:40:36.858241,0.0
+3140,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.65241670609,0,0,0,2025-09-25T13:40:36.868612,0.0
+3208,valWBFPolicyService.exe,C:\Windows\System32\valWBFPolicyService.exe,,-1,0,0,0,201520.01820278168,0,0,0,2025-09-25T13:40:36.878812,0.0
+3212,CxMonSvc.exe,C:\Windows\CxSvc\CxMonSvc.exe,,-1,0,0,0,201520.025711298,0,0,0,2025-09-25T13:40:36.889055,0.0
+3220,XtuService.exe,C:\Windows\SysWOW64\XtuService.exe,,-1,0,0,0,201520.03142094612,0,0,0,2025-09-25T13:40:36.899255,0.0
+3228,OneApp.IGCC.WinService.exe,C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_c2ac023763d5d3ad\OneApp.IGCC.WinService.exe,,-1,0,0,0,201520.03725361824,0,0,0,2025-09-25T13:40:36.909351,0.0
+3244,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201512.00387692451,0,0,0,2025-09-25T13:40:36.919661,0.0
+3248,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.53177809715,0,0,0,2025-09-25T13:40:36.930017,0.0
+3256,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.54202866554,0,0,0,2025-09-25T13:40:36.940319,0.0
+3316,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,8299.697712659836,61,0,0,2025-09-25T13:40:37.044667,0.0
+3340,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.38019895554,0,0,0,2025-09-25T13:40:37.055378,0.0
+3400,SmartAudio3.exe,C:\Program Files\CONEXANT\SA3\HP-NB-AIO\SmartAudio3.exe,DESKTOP-Q0KEARK\FSPIT,26,0,0,0,8363.643563508987,92,0,0,2025-09-25T13:40:37.444373,0.02
+3408,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.08481550217,0,0,0,2025-09-25T13:40:37.454979,0.0
+3460,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,3877.538183927536,39,0,0,2025-09-25T13:40:37.531453,0.02666666666666667
+3524,Code.exe,C:\Users\FSPIT\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-Q0KEARK\FSPIT,5,0,0,1,3889.354778289795,734,0,0,2025-09-25T13:40:37.847048,0.02
+3568,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201521.9891681671,0,0,0,2025-09-25T13:40:37.857532,0.0
+3600,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201521.9794819355,0,0,0,2025-09-25T13:40:37.867743,0.0
+3640,spoolsv.exe,C:\Windows\System32\spoolsv.exe,,-1,2,0,0,201521.87372088432,0,0,0,2025-09-25T13:40:37.878618,0.0
+3696,Code.exe,C:\Users\FSPIT\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-Q0KEARK\FSPIT,2,0,0,1,3889.64506149292,731,0,0,2025-09-25T13:40:38.025243,0.02
+3700,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201521.8976163864,0,0,0,2025-09-25T13:40:38.035758,0.0
+3760,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201521.743298769,0,0,0,2025-09-25T13:40:38.045719,0.0
+3768,ChatGPT.exe,C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2025.258.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,DESKTOP-Q0KEARK\FSPIT,54,1,0,0,8333.161170244217,99,0,0,2025-09-25T13:40:38.668159,0.006666666666666667
+3812,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,100.22193789482117,39,0,0,2025-09-25T13:40:38.767098,0.02666666666666667
+3904,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201521.9587521553,0,0,0,2025-09-25T13:40:38.777633,0.0
+3912,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201521.96901226044,0,0,0,2025-09-25T13:40:38.788116,0.0
+3920,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201521.9789941311,0,0,0,2025-09-25T13:40:38.798118,0.0
+3928,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201521.98822689056,0,0,0,2025-09-25T13:40:38.808520,0.0
+3984,svchost.exe,C:\Windows\System32\svchost.exe,,-1,1,0,0,201521.9906680584,0,0,0,2025-09-25T13:40:38.819457,0.0
+4016,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201503.26173090935,0,0,0,2025-09-25T13:40:38.831895,0.0
+4024,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.00918364525,0,0,0,2025-09-25T13:40:38.844416,0.0
+4032,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.01975893974,0,0,0,2025-09-25T13:40:38.855173,0.0
+4040,armsvc.exe,C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe,,-1,0,0,0,201522.02871084213,0,0,0,2025-09-25T13:40:38.867013,0.0
+4056,fpCSEvtSvc.exe,C:\Windows\System32\fpCSEvtSvc.exe,,-1,0,0,0,201522.0307278633,0,0,0,2025-09-25T13:40:38.878207,0.0
+4064,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.03935217857,0,0,0,2025-09-25T13:40:38.888868,0.0
+4080,svchost.exe,C:\Windows\System32\svchost.exe,,-1,1,0,0,201522.04611325264,0,0,0,2025-09-25T13:40:38.899333,0.0
+4104,Code.exe,C:\Users\FSPIT\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-Q0KEARK\FSPIT,53,0,0,1,3890.381610393524,1427,1,0,2025-09-25T13:40:39.222172,0.1
+4116,ibtsiva.exe,C:\Windows\System32\ibtsiva.exe,,-1,0,0,0,201522.3356847763,0,0,0,2025-09-25T13:40:39.232462,0.0
+4132,CxUtilSvc.exe,C:\Windows\CxSvc\CxUtilSvc.exe,,-1,0,0,0,201522.33592939377,0,0,0,2025-09-25T13:40:39.243626,0.0
+4228,SynTPEnhService.exe,C:\Program Files\Synaptics\SynTP\SynTPEnhService.exe,,-1,0,0,0,201522.33053040504,0,0,0,2025-09-25T13:40:39.255054,0.0
+4236,MpDefenderCoreService.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25080.5-0\MpDefenderCoreService.exe,,-1,0,0,0,201522.34045553207,0,0,0,2025-09-25T13:40:39.265973,0.0
+4244,MsMpEng.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25080.5-0\MsMpEng.exe,,-1,0,0,0,201522.34974741936,0,0,0,2025-09-25T13:40:39.276118,0.0
+4328,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-Q0KEARK\FSPIT,10,0,0,0,8366.07859826088,48,0,0,2025-09-25T13:40:39.625348,0.0
+4384,svchost.exe,C:\Windows\System32\svchost.exe,,-1,2,0,0,201501.37235808372,0,0,0,2025-09-25T13:40:39.636649,0.0
+4396,LanWlanWwanSwitchingServiceUWP.exe,C:\Windows\System32\DriverStore\FileRepository\hpqkbsoftwarecompnent.inf_amd64_ba096fb4f67b0f61\LanWlanWwanSwitchingServiceUWP.exe,,-1,0,0,0,201520.58078360558,0,0,0,2025-09-25T13:40:39.646933,0.0
+4420,OfficeClickToRun.exe,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,,-1,0,0,0,201522.54485607147,0,0,0,2025-09-25T13:40:39.657130,0.0
+4460,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,0,0,0,0,8236.83851647377,878,0,0,2025-09-25T13:40:39.760369,0.0
+4492,unsecapp.exe,C:\Windows\System32\wbem\unsecapp.exe,DESKTOP-Q0KEARK\FSPIT,-1,0,0,0,8357.58705163002,48,0,0,2025-09-25T13:40:39.761496,0.0
+4508,TabTip.exe,C:\Program Files\Common Files\microsoft shared\ink\TabTip.exe,DESKTOP-Q0KEARK\FSPIT,-1,0,0,0,8360.672662496567,44,0,0,2025-09-25T13:40:39.762445,0.0
+4608,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201522.35557127,0,0,0,2025-09-25T13:40:39.773176,0.0
+4652,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,8371.490993022919,89,0,0,2025-09-25T13:40:39.872816,0.0
+4788,Code.exe,C:\Users\FSPIT\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-Q0KEARK\FSPIT,15,0,0,1,3891.5829586982727,953,0,0,2025-09-25T13:40:40.081715,0.04
+5284,RtsCM64.exe,C:\Windows\RtsCM64.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,8308.918330907822,22,0,0,2025-09-25T13:40:40.190943,0.0
+5436,svchost.exe,C:\Windows\System32\svchost.exe,,-1,8,0,0,196354.4686858654,0,0,0,2025-09-25T13:40:40.202547,0.12666666666666668
+5440,WindowsTerminal.exe,C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.22.12111.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe,DESKTOP-Q0KEARK\FSPIT,13,0,0,0,101.80983638763428,117,0,0,2025-09-25T13:40:40.598489,0.06666666666666667
+5624,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-Q0KEARK\FSPIT,14,0,0,0,3879.6645135879517,235,0,0,2025-09-25T13:40:40.887462,0.04
+5688,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,36,0,0,0,8360.540036678314,5606,1,0,2025-09-25T13:40:41.178570,0.013333333333333334
+5728,ShellHost.exe,C:\Windows\System32\ShellHost.exe,DESKTOP-Q0KEARK\FSPIT,5,0,0,0,8371.241268873215,33,0,0,2025-09-25T13:40:41.380841,0.0
+5832,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,3880.437240600586,99,0,0,2025-09-25T13:40:41.464710,0.006666666666666667
+5948,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,18,0,0,0,8238.39233136177,5063,1,0,2025-09-25T13:40:41.674697,0.0
+5956,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,,-1,0,0,0,201519.98560929298,0,0,0,2025-09-25T13:40:41.685408,0.0
+6004,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201485.99081420898,0,0,0,2025-09-25T13:40:41.695566,0.0
+6180,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,13,0,0,0,8238.455058574677,5065,1,0,2025-09-25T13:40:41.816773,0.0
+6208,HPHotkeyNotification.exe,C:\Windows\System32\DriverStore\FileRepository\hpqkbsoftwarecompnent.inf_amd64_ba096fb4f67b0f61\HPHotkeyNotification.exe,DESKTOP-Q0KEARK\FSPIT,-1,0,0,0,8369.340039014816,120,1,0,2025-09-25T13:40:41.817820,0.006666666666666667
+6212,SearchIndexer.exe,C:\Windows\System32\SearchIndexer.exe,,-1,0,0,0,201497.87040519714,0,0,0,2025-09-25T13:40:41.828258,0.0
+6372,wlanext.exe,C:\Windows\System32\wlanext.exe,,-1,0,0,0,201511.3739168644,0,0,0,2025-09-25T13:40:41.839442,0.0
+6544,AggregatorHost.exe,C:\Windows\System32\AggregatorHost.exe,,-1,0,0,0,201510.9830236435,0,0,0,2025-09-25T13:40:41.851232,0.0
+6784,csrss.exe,C:\Windows\System32\csrss.exe,,-1,0,0,0,11571.374956130981,0,0,0,2025-09-25T13:40:41.862731,0.006666666666666667
+7008,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201511.9144062996,0,0,0,2025-09-25T13:40:41.872954,0.0
+7056,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201389.72247695923,0,0,0,2025-09-25T13:40:41.883110,0.0
+7196,ChatGPT.exe,C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2025.258.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,DESKTOP-Q0KEARK\FSPIT,16,2,0,0,8333.027857542038,775,0,0,2025-09-25T13:40:42.098373,0.02
+7340,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201392.14536309242,0,0,0,2025-09-25T13:40:42.109237,0.0
+7412,Code.exe,C:\Users\FSPIT\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-Q0KEARK\FSPIT,7,0,0,1,3891.6228334903717,985,1,0,2025-09-25T13:40:42.267079,0.013333333333333334
+7532,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201505.64494037628,0,0,0,2025-09-25T13:40:42.277667,0.0
+7608,dwm.exe,C:\Windows\System32\dwm.exe,,-1,0,0,0,11571.526673793793,0,0,0,2025-09-25T13:40:42.288098,0.006666666666666667
+7840,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201505.27750062943,0,0,0,2025-09-25T13:40:42.298396,0.0
+7856,python.exe,C:\Users\FSPIT\Documents\project_3_keylogger_detector\myvenv\Scripts\python.exe,DESKTOP-Q0KEARK\FSPIT,0,0,0,1,103.84603524208069,147,1,0,2025-09-25T13:40:42.361226,0.006666666666666667
+8116,NisSrv.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.25080.5-0\NisSrv.exe,,-1,0,0,0,201504.76020789146,0,0,0,2025-09-25T13:40:42.372975,0.0
+8176,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201504.51286649704,0,0,0,2025-09-25T13:40:42.383103,0.0
+8216,ApplicationFrameHost.exe,C:\Windows\System32\ApplicationFrameHost.exe,DESKTOP-Q0KEARK\FSPIT,11,0,0,0,8306.720876932144,55,0,0,2025-09-25T13:40:42.565625,0.0
+8380,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,197710.47225737572,0,0,0,2025-09-25T13:40:42.576649,0.0
+8712,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,15,0,0,0,8362.198559045792,5410,1,0,2025-09-25T13:40:42.700191,0.0
+8728,Code.exe,C:\Users\FSPIT\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-Q0KEARK\FSPIT,62,0,0,1,3895.4536826610565,64,0,0,2025-09-25T13:40:43.325345,0.14
+9056,WidgetService.exe,C:\Program Files\WindowsApps\Microsoft.WidgetsPlatformRuntime_1.6.14.0_x64__8wekyb3d8bbwe\WidgetService\WidgetService.exe,DESKTOP-Q0KEARK\FSPIT,10,0,0,0,8243.890457868576,160,0,0,2025-09-25T13:40:43.510484,0.0
+9080,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,2,0,0,0,8364.327697515488,5462,1,0,2025-09-25T13:40:43.806777,0.0
+9144,HPAudioAnalytics.exe,C:\Windows\System32\DriverStore\FileRepository\hpqkbsoftwarecompnent.inf_amd64_ba096fb4f67b0f61\HPAudioAnalytics.exe,,-1,0,0,0,1737.1410636901855,0,0,0,2025-09-25T13:40:43.817890,0.02666666666666667
+9148,SystemSettings.exe,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,DESKTOP-Q0KEARK\FSPIT,19,0,0,0,7770.671334266663,103,0,0,2025-09-25T13:40:44.419436,0.0
+9392,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-Q0KEARK\FSPIT,7,0,0,0,8376.06988286972,69,0,0,2025-09-25T13:40:44.618007,0.0
+9444,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,37,0,0,0,8241.369062185287,5261,1,0,2025-09-25T13:40:44.915297,0.013333333333333334
+9480,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,4,0,0,0,8241.978394985199,5117,1,0,2025-09-25T13:40:45.240626,0.0
+9496,ChatGPT.exe,C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2025.258.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,DESKTOP-Q0KEARK\FSPIT,5,0,0,0,8336.772793531418,724,0,0,2025-09-25T13:40:45.611855,0.0
+9580,CrossDeviceResume.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe,DESKTOP-Q0KEARK\FSPIT,6,0,0,0,8375.150450229645,156,0,0,2025-09-25T13:40:45.836546,0.0
+9672,winlogon.exe,C:\Windows\System32\winlogon.exe,,-1,0,0,0,11575.306564569473,0,0,0,2025-09-25T13:40:45.847321,0.006666666666666667
+9756,Code.exe,C:\Users\FSPIT\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-Q0KEARK\FSPIT,9,0,0,1,3895.697744846344,985,1,0,2025-09-25T13:40:46.031719,0.013333333333333334
+9864,python.exe,C:\Users\FSPIT\AppData\Local\Programs\Python\Python313\python.exe,DESKTOP-Q0KEARK\FSPIT,2,1,0,1,107.57310056686401,147,1,0,2025-09-25T13:40:46.104338,0.006666666666666667
+9916,SecurityHealthService.exe,C:\Windows\System32\SecurityHealthService.exe,,-1,0,0,0,201481.87666797638,0,0,0,2025-09-25T13:40:46.115247,0.0
+10236,SynTPEnh.exe,C:\Program Files\Synaptics\SynTP\SynTPEnh.exe,DESKTOP-Q0KEARK\FSPIT,0,0,0,0,8378.602975606918,45,0,0,2025-09-25T13:40:46.496533,0.0
+10360,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-Q0KEARK\FSPIT,-1,0,0,0,8378.44769024849,40,0,0,2025-09-25T13:40:46.497574,0.0
+10372,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,197713.30267071724,0,0,0,2025-09-25T13:40:46.508275,0.0
+10576,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-Q0KEARK\FSPIT,6,0,0,0,8373.044935464859,60,0,0,2025-09-25T13:40:46.633765,0.0
+10804,Code.exe,C:\Users\FSPIT\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-Q0KEARK\FSPIT,13,1,0,1,3883.239979505539,259,0,0,2025-09-25T13:40:46.796216,0.04666666666666667
+10968,sihost.exe,C:\Windows\System32\sihost.exe,DESKTOP-Q0KEARK\FSPIT,3,0,0,0,8379.110435009003,10,0,0,2025-09-25T13:40:47.174785,0.0
+11008,python.exe,C:\Users\FSPIT\AppData\Local\Programs\Python\Python313\python.exe,DESKTOP-Q0KEARK\FSPIT,2,0,0,1,18.385313034057617,158,1,0,2025-09-25T13:40:47.323719,0.0
+11316,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201477.85982322693,0,0,0,2025-09-25T13:40:47.335225,0.0
+11408,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201396.03828692436,0,0,0,2025-09-25T13:40:47.345902,0.0
+11460,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,,-1,0,0,0,11576.627671003342,0,0,0,2025-09-25T13:40:47.355971,0.006666666666666667
+11540,python.exe,C:\Users\FSPIT\AppData\Local\Programs\Python\Python313\python.exe,DESKTOP-Q0KEARK\FSPIT,2,1,0,1,38.717260122299194,147,1,0,2025-09-25T13:40:47.434665,0.006666666666666667
+11820,ctfmon.exe,C:\Windows\System32\ctfmon.exe,DESKTOP-Q0KEARK\FSPIT,-1,0,0,0,8368.402783870697,44,0,0,2025-09-25T13:40:47.435910,0.0
+12012,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201395.9933359623,0,0,0,2025-09-25T13:40:47.448023,0.0
+12080,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-Q0KEARK\FSPIT,3,0,0,0,8376.161692142487,66,0,0,2025-09-25T13:40:47.601532,0.0
+12112,backgroundTaskHost.exe,C:\Windows\System32\backgroundTaskHost.exe,DESKTOP-Q0KEARK\FSPIT,7,0,0,0,8371.494023323059,99,0,0,2025-09-25T13:40:47.895398,0.0
+12352,ChatGPT.exe,C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2025.258.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe,DESKTOP-Q0KEARK\FSPIT,66,0,0,0,8336.88199710846,1061,1,0,2025-09-25T13:40:48.232121,0.0
+12448,AppActions.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\AppActions.exe,DESKTOP-Q0KEARK\FSPIT,0,0,0,0,7776.755486726761,89,0,0,2025-09-25T13:40:48.379647,0.0
+12496,svchost.exe,C:\Windows\System32\svchost.exe,,-1,2,0,0,201396.397128582,0,0,0,2025-09-25T13:40:48.390423,0.0
+12552,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,8076.625238895416,0,0,0,2025-09-25T13:40:48.402048,0.0
+12660,igfxEM.exe,C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_38cfab2b652e4701\igfxEM.exe,DESKTOP-Q0KEARK\FSPIT,3,0,0,0,8380.084736585617,92,0,0,2025-09-25T13:40:48.581083,0.0
+12676,python.exe,C:\Users\FSPIT\Documents\project_3_keylogger_detector\myvenv\Scripts\python.exe,DESKTOP-Q0KEARK\FSPIT,0,0,0,1,19.93624496459961,99,1,0,2025-09-25T13:40:48.649146,0.0
+12700,MoNotificationUx.exe,C:\Windows\UUS\Packages\Preview\amd64\MoNotificationUx.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,8064.503638982773,138,0,0,2025-09-25T13:40:48.744096,0.0
+12756,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-Q0KEARK\FSPIT,2,0,0,0,7773.408400774002,68,0,0,2025-09-25T13:40:48.848506,0.0
+12800,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,259.2408998012543,0,0,0,2025-09-25T13:40:48.859044,0.013333333333333334
+12876,TextInputHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,DESKTOP-Q0KEARK\FSPIT,34,0,0,0,8367.064146757126,143,0,0,2025-09-25T13:40:49.657819,0.013333333333333334
+13024,svchost.exe,C:\Windows\System32\svchost.exe,,-1,0,0,0,201440.67529416084,0,0,0,2025-09-25T13:40:49.668982,0.0
+13080,GoogleInputHandler.exe,C:\Program Files (x86)\Google\Google Input Tools\GoogleInputHandler.exe,DESKTOP-Q0KEARK\FSPIT,9,0,0,0,8381.889122009277,71,0,0,2025-09-25T13:40:49.864782,0.0
+13252,StartMenuExperienceHost.exe,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,DESKTOP-Q0KEARK\FSPIT,21,0,0,0,8377.58561015129,171,0,0,2025-09-25T13:40:50.399788,0.0
+13256,OpenConsole.exe,C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.22.12111.0_x64__8wekyb3d8bbwe\OpenConsole.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,111.92297530174255,113,0,0,2025-09-25T13:40:50.519346,0.0
+13372,SynTPHelper.exe,C:\Program Files\Synaptics\SynTP\SynTPHelper.exe,DESKTOP-Q0KEARK\FSPIT,-1,0,0,0,8381.548276901245,48,0,0,2025-09-25T13:40:50.520557,0.0
+13460,python.exe,C:\Users\FSPIT\Documents\project_3_keylogger_detector\myvenv\Scripts\python.exe,DESKTOP-Q0KEARK\FSPIT,0,0,0,1,21.661498308181763,158,1,0,2025-09-25T13:40:50.584379,0.0
+13492,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-Q0KEARK\FSPIT,14,0,0,0,280.10758924484253,235,0,0,2025-09-25T13:40:50.961056,0.06
+13616,SearchHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe,DESKTOP-Q0KEARK\FSPIT,24,0,0,0,8378.566750049591,141,0,0,2025-09-25T13:40:51.455770,0.013333333333333334
+13700,Code.exe,C:\Users\FSPIT\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-Q0KEARK\FSPIT,19,1,0,1,3901.1788370609283,1065,1,0,2025-09-25T13:40:51.673402,0.04
+13768,OpenConsole.exe,C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.22.12111.0_x64__8wekyb3d8bbwe\OpenConsole.exe,DESKTOP-Q0KEARK\FSPIT,1,0,0,0,43.00354075431824,113,0,0,2025-09-25T13:40:51.789293,0.0
+13936,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-Q0KEARK\FSPIT,3,0,0,0,8348.524778604507,48,0,0,2025-09-25T13:40:51.920842,0.0
+14044,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\139.0.3405.102\msedgewebview2.exe,DESKTOP-Q0KEARK\FSPIT,-1,0,0,0,8249.923978805542,518,0,0,2025-09-25T13:40:52.574269,0.0
+14048,Code.exe,C:\Users\FSPIT\AppData\Local\Programs\Microsoft VS Code\Code.exe,DESKTOP-Q0KEARK\FSPIT,8,0,0,1,3902.053452014923,985,1,0,2025-09-25T13:40:52.724461,0.013333333333333334
+14296,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-Q0KEARK\FSPIT,6,0,0,0,8384.785444021225,65,0,0,2025-09-25T13:40:52.934435,0.0

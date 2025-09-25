@@ -22,3 +22,54 @@ env/
 # OS-specific junk
 .DS_Store
 Thumbs.db
+
+#for virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Project-generated temp files
+dummy_temp_file_*.txt
+
+# Network / socket dumps (if any)
+*.sock
+*.pid
+
+# Startup/demo files
+demo_scripts/*.bat
+demo_scripts/*.desktop
+
+# Streamlit artifacts
+.streamlit/
+
+# Dataset / model artifacts (optional, if you don't want to push)
+data/
+models/
