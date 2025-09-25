@@ -1,4 +1,4 @@
-## Keylogger Detector (student prototype)
+## Keylogger Detector
 
 This project collects non-sensitive telemetry from running processes and uses a RandomForest to flag suspicious processes that show behavior similar to keyloggers (e.g., many open files, network connections, startup persistence). It never captures keyboard input.
 
