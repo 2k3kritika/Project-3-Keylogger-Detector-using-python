@@ -80,3 +80,4 @@ dataset.csv
 live_snapshot_scored.csv
 model.pkl
 telemetry_snapshot.csv
+.streamlit_pid
