@@ -18,6 +18,7 @@ Test only in a VM. See report.md for limitations and ethics.
 
 
 -----------------run_all.py----------------------------------------------
+
 this script control all the required scripts for the Keylogger Detector project.
 
 Usage:
@@ -31,6 +32,7 @@ Usage:
 
 
 ----------------------Setup:(one time)-------------------------
+
 `python -m venv venv`   #create a VM
 `.\venv\Scripts\Activate.ps1`   #activates the VM
 `python -m pip install --upgrade pip` # upgrade the pip to the latest version
@@ -41,6 +43,7 @@ Usage:
 
 
 ---------------------Running the detector-----------------------
+
 Steps to run the whole detector:
 1. take a telemetry snapshot
 `python collector.py`
@@ -112,6 +115,7 @@ Delete if needed:
 
 
 -----------------✅ Quick Checklist for cleanup-------------------------
+
 Task Manager → no Python processes.
 Startup folder → dummy file deleted.
 Network ports → no leftover demo connections.
