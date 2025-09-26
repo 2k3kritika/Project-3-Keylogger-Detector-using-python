@@ -44,6 +44,13 @@ def extract_process_features(proc):
     username = info.get("username") or ""
     create_time = info.get("create_time") or 0
 
+    #-----------------(optional) if process is python, replace name with the script being run
+    if "python" in name.lower() and cmdline:
+         #takes the last arguement that end with .py
+         py_scripts = [arg for arg in cmdline.split() if arg.endswith(".py")]
+         if py_scripts:
+             name = py_scripts[-1].split(os.sep)[-1]    #show only script filename
+
     # safe queries: may require privileges for some fields, handle exceptions
     open_files = 0
     connections = 0
@@ -68,6 +75,7 @@ def extract_process_features(proc):
         "pid": pid,
         "name": name,
         "exe": exe,
+        "cmdline": cmdline,
         "username": username,
         "open_files": open_files,
         "connections": connections,
