@@ -2,7 +2,9 @@
 
 This project collects non-sensitive telemetry from running processes and uses a RandomForest to flag suspicious processes that show behavior similar to keyloggers (e.g., many open files, network connections, startup persistence). It never captures keyboard input.
 
-Usage:
+
+
+-----------------------Usage:-------------------------------------------
 1. Create a venv and install requirements: `pip install -r requirements.txt`
 2. Take snapshot: `python collector.py`
 3. Build dataset: `python synth_data.py`
@@ -13,13 +15,30 @@ Usage:
 
 Test only in a VM. See report.md for limitations and ethics.
 
-Setup:(one time)
+
+
+-----------------run_all.py----------------------------------------------
+this script control all the required scripts for the Keylogger Detector project.
+
+Usage:
+  python run_all.py --all                     # run collect -> synth -> train -> detect
+  python run_all.py --collect                 # only run collector.py
+  python run_all.py --simulate --detect       # run demo simulate then run detector
+  python run_all.py --ui                      # start Streamlit UI (background) and save pid
+  python run_all.py --cleanup                 # cleanup demo artifacts (temp files + startup entry)
+  python run_all.py --stop-ui                 # stop background Streamlit UI started by this script
+
+
+
+----------------------Setup:(one time)-------------------------
 `python -m venv venv`   #create a VM
 `.\venv\Scripts\Activate.ps1`   #activates the VM
 `python -m pip install --upgrade pip` # upgrade the pip to the latest version
 `pip install -r requirements.txt`   #install all required modules in VM
 `Remove-Item -Recurse -Force .\venv`    #to delete this current vm in powershell
 `rmdir /s /q venv`  #to delete the vm using cmd
+
+
 
 ---------------------Running the detector-----------------------
 Steps to run the whole detector:
@@ -42,6 +61,8 @@ open http://localhost.8501
 `python C:\Users\FSPIT\Documents\project_3_keylogger_detector\demo_scripts\simulate_suspicious.py`
 
 then re-run `python detector_live.py` this time detector will show flagging simulated activity.
+
+
 
 -------------------To check either our fake keylogger simulate_suspicious.py is actually closed or not----------
 1. Check Python processes in Task Manager (Windows)
@@ -88,7 +109,9 @@ Returns False → nothing running at startup.
 Delete if needed:
 `Remove-Item "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\dummy-demo.bat"`
 
-✅ Quick Checklist
+
+
+-----------------✅ Quick Checklist for cleanup-------------------------
 Task Manager → no Python processes.
 Startup folder → dummy file deleted.
 Network ports → no leftover demo connections.
