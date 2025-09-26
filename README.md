@@ -21,12 +21,12 @@ Test only in a VM. See report.md for limitations and ethics.
 this script control all the required scripts for the Keylogger Detector project.
 
 Usage:
-  python run_all.py --all                     # run collect -> synth -> train -> detect
-  python run_all.py --collect                 # only run collector.py
-  python run_all.py --simulate --detect       # run demo simulate then run detector
-  python run_all.py --ui                      # start Streamlit UI (background) and save pid
-  python run_all.py --cleanup                 # cleanup demo artifacts (temp files + startup entry)
-  python run_all.py --stop-ui                 # stop background Streamlit UI started by this script
+`python run_all.py --all`                     # run collect -> synth -> train -> detect
+`python run_all.py --collect`                 # only run collector.py
+`python run_all.py --simulate --detect`       # run demo simulate then run detector
+`python run_all.py --ui`                      # start Streamlit UI (background) and save pid
+`python run_all.py --cleanup`                 # cleanup demo artifacts (temp files + startup entry)
+`python run_all.py --stop-ui`                 # stop background Streamlit UI started by this script
 
 
 
