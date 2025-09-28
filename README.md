@@ -31,7 +31,7 @@ Usage:
 
 
 
-----------------------Setup:(one time)-------------------------
+----------------------Setup:(one time virtual environment)-------------------------
 
 `python -m venv venv`   #create a VM
 `.\venv\Scripts\Activate.ps1`   #activates the VM
@@ -39,7 +39,7 @@ Usage:
 `pip install -r requirements.txt`   #install all required modules in VM
 `Remove-Item -Recurse -Force .\venv`    #to delete this current vm in powershell
 `rmdir /s /q venv`  #to delete the vm using cmd
-
+`deactivate`    #to deactivate the current venv
 
 
 ---------------------Running the detector-----------------------
@@ -47,7 +47,12 @@ Usage:
 Steps to run the whole detector:
 1. take a telemetry snapshot
 `python collector.py`
-print a table and saves telemetry_snapshot.csv
+
+“Telemetry data is collected and stored locally as CSV/JSON. Due to privacy and size concerns, full raw logs are not uploaded. A sample snapshot is included for reference.”
+
+print a table and saves `telemetry_snapshot.csv`
+
+
 2. build data set
 `python synth_data.py`
 creates dataset.csv (benign rows + synthetic suspicious rows)
@@ -61,7 +66,7 @@ prints suspicious processes (score >= threshold) and saves live_snapshot_score.c
 `streamlit run ui_streamlit.py`
 open http://localhost.8501
 6. DEMO: simulating suspicious behaviour in vm; in another terminal
-`python C:\Users\FSPIT\Documents\project_3_keylogger_detector\demo_scripts\simulate_suspicious.py`
+`python simulate_suspicious.py`
 
 then re-run `python detector_live.py` this time detector will show flagging simulated activity.
 

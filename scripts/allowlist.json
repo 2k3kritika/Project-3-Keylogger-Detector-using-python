@@ -1,0 +1,15 @@
+{
+  "names": [
+    "explorer.exe",
+    "code.exe",
+    "chatgpt.exe",
+    "chrome.exe",
+    "msedge.exe",
+    "svchost.exe"
+  ],
+  "paths": [
+    "C:\\Windows",
+    "C:\\Program Files",
+    "C:\\Program Files (x86)"
+  ]
+}

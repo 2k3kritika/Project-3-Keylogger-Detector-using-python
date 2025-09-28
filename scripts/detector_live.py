@@ -4,9 +4,33 @@ import pandas as pd
 from collector import collect_all
 import numpy as np
 import os
+import json
 
-MODEL_PATH = "model.pkl"
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "model.pkl")
 THRESHOLD = 0.5   # model probability threshold for flagging
+
+#-----------------loading allow list from the json file--------------
+ALLOWLIST_FILE = "allowlist.json"
+if os.path.exists(ALLOWLIST_FILE):
+    with open(ALLOWLIST_FILE,"r") as f:
+        allowlist = json.load(f)
+    ALLOWLIST_NAMES = set(n.lower() for n in allowlist.get("names",[]))
+    ALLOWLIST_PATHS = [p.lower() for p in allowlist.get("paths", [])]
+else:
+    ALLOWLIST_NAMES = set()
+    ALLOWLIST_PATHS = []
+
+def is_allowlisted(name, exe_path):
+    name_low = str(name or "").lower()
+    exe_low = str(exe_path or "").replace("\\","/").lower().strip()
+    if name_low in ALLOWLIST_NAMES:
+        return True
+    for p in ALLOWLIST_PATHS:
+        p_low = p.replace("\\","/").lower().strip()
+        if exe_low.startswith(p_low):  # fixed typo: 'startswith'
+            return True
+    return False
+#-----------------end of allowlist code------------------------------
 
 clf = joblib.load(MODEL_PATH)
 feature_cols = ["open_files","connections","path_in_temp","path_in_user","age_seconds","cmdline_len","suspicious_cmd_kw","in_startup"]
@@ -16,7 +40,16 @@ def score_snapshot():
     X = df[feature_cols].fillna(0)
     probs = clf.predict_proba(X)[:,1]
     df["score"] = probs
-    suspicious = df[df["score"] >= THRESHOLD].sort_values("score", ascending=False)
+
+    # filter out allowlisted processes from suspicious
+    suspicious = df[df["score"] >= THRESHOLD].copy()
+    suspicious = suspicious[~suspicious.apply(
+        lambda r: is_allowlisted(
+            r.name, 
+            r.get("exe","") if hasattr(r,"get") else (r.exe if "exe" in r.index else "")
+        ), axis=1
+    )]
+    suspicious = suspicious.sort_values("score", ascending=False)
     return df, suspicious
 
 if __name__ == "__main__":
@@ -26,12 +59,11 @@ if __name__ == "__main__":
         print("No suspicious processes detected.")
     else:
         for _, r in suspicious.iterrows():
-            #try to show the script name/cmdline where it is possible otherwise withour this part it shows python.exe as suspicous activity
-            cmdline = r.get("cmdline","") if hasattr(r,"get")else(r.cmdline if "cmdline" in r.index else "") 
-            exe_path = r.get("exe","") if hasattr(r,"get")else (r.exe if "exe" in r.index else "")
+            cmdline = r.get("cmdline","") if hasattr(r,"get") else (r.cmdline if "cmdline" in r.index else "")
+            exe_path = r.get("exe","") if hasattr(r,"get") else (r.exe if "exe" in r.index else "")
+            
             friendly = ""
             try:
-                #prefer explicit script file from cmdline
                 if cmdline:
                     parts = str(cmdline).split()
                     for p in parts:
@@ -42,7 +74,6 @@ if __name__ == "__main__":
                             friendly = os.path.basename(exe_path)
             except Exception:
                 friendly = ""
-            #prepare a short cmdline preview to avoid extra thing
 
             cmd_preview = ""
             if cmdline:
