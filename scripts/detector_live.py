@@ -6,7 +6,8 @@ import numpy as np
 import os
 import json
 
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "model.pkl")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "model.pkl")
+MODEL_PATH = os.path.abspath(MODEL_PATH)
 THRESHOLD = 0.5   # model probability threshold for flagging
 
 #-----------------loading allow list from the json file--------------
@@ -37,20 +38,41 @@ feature_cols = ["open_files","connections","path_in_temp","path_in_user","age_se
 
 def score_snapshot():
     df = collect_all()
-    X = df[feature_cols].fillna(0)
-    probs = clf.predict_proba(X)[:,1]
-    df["score"] = probs
 
-    # filter out allowlisted processes from suspicious
+    # make sure all expected feature columns exist
+    for col in feature_cols:
+        if col not in df.columns:
+            df[col] = 0  # fill missing features with 0
+            print(f"[!] Missing feature column '{col}' filled with 0")
+
+    try:
+        X = df[feature_cols].fillna(0)
+        probs = clf.predict_proba(X)[:, 1]
+        df["score"] = probs
+    except Exception as e:
+        print("[!] Model prediction failed:", e)
+        df["score"] = 0.0  # fallback so code doesn’t crash
+
+    # filter suspicious
     suspicious = df[df["score"] >= THRESHOLD].copy()
+
+    # apply allowlist filter
     suspicious = suspicious[~suspicious.apply(
         lambda r: is_allowlisted(
-            r.name, 
-            r.get("exe","") if hasattr(r,"get") else (r.exe if "exe" in r.index else "")
+            r.get("name", ""), 
+            r.get("exe", "")
         ), axis=1
     )]
-    suspicious = suspicious.sort_values("score", ascending=False)
+
+    # sort only if score exists
+    if "score" in suspicious.columns:
+        suspicious = suspicious.sort_values("score", ascending=False)
+    else:
+        print("[!] No 'score' column in suspicious DataFrame, returning empty")
+        suspicious = pd.DataFrame()
+
     return df, suspicious
+
 
 if __name__ == "__main__":
     df, suspicious = score_snapshot()
