@@ -7,7 +7,8 @@ st.title("Keylogger Detector — Telemetry & Scores")
 
 df, suspicious = score_snapshot()
 st.subheader("Top Suspicious Processes")
-st.write(suspicious[["pid","name","score","open_files","connections","in_startup","path_in_temp"]].reset_index(drop=True))
+st.write(suspicious.filter(
+    items=["pid","name","score","open_files","connections","in_startup","path_in_temp"], axis=1).reset_index(drop=True))
 
 st.subheader("All Processes (scored)")
 st.dataframe(df[["pid","name","score","open_files","connections","in_startup","path_in_temp"]].sort_values("score", ascending=False))

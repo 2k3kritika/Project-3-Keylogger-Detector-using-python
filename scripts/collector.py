@@ -1,6 +1,6 @@
 # collector.py
 import psutil, platform, os, time, json
-from datetime import datetime
+from datetime import datetime, UTC
 import pandas as pd
 
 def get_startup_paths():
@@ -59,7 +59,7 @@ def extract_process_features(proc):
     except Exception:
         open_files = -1
     try:
-        conns = proc.connections(kind='inet')
+        conns = proc.net_connections(kind='inet')
         connections = len(conns)
     except Exception:
         connections = -1
@@ -85,7 +85,7 @@ def extract_process_features(proc):
         "cmdline_len": cmdline_len,
         "suspicious_cmd_kw": suspicious_cmd_keywords,
         "in_startup": is_in_startup(exe) if exe else 0,
-        "timestamp": datetime.utcnow().isoformat()
+        "timestamp": datetime.now(UTC).isoformat()
     }
     return features
 
